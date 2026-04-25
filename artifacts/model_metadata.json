@@ -1,0 +1,47 @@
+{
+  "model_type": "RandomForestClassifier",
+  "trained_at": "2026-04-19T06:24:25.438688",
+  "author": "Harshit Kumar",
+  "github": "Harshit-Kumar-1710/The-Cross-Site-Scripting-Attack-Detection",
+  "dataset_size": 11259,
+  "train_size": 12236,
+  "test_size_samples": 2252,
+  "total_features": 3018,
+  "tfidf_features": 3000,
+  "security_features": 18,
+  "best_params": {
+    "max_depth": null,
+    "min_samples_split": 2,
+    "n_estimators": 200
+  },
+  "best_cv_f1": 0.9985,
+  "test_accuracy": 0.9969,
+  "test_f1": 0.9977,
+  "test_roc_auc": 0.9999,
+  "severity_thresholds": {
+    "safe_max": 1.0,
+    "low_max": 1.0,
+    "medium_max": 1.0,
+    "high_max": 1.0
+  },
+  "severity_levels": [
+    "SAFE",
+    "LOW",
+    "MEDIUM",
+    "HIGH",
+    "CRITICAL"
+  ],
+  "data_sources": [
+    "kaggle_csv",
+    "synthetic_modern"
+  ],
+  "smote_used": true,
+  "tfidf_config": {
+    "max_features": 3000,
+    "analyzer": "char_wb",
+    "ngram_range": [
+      2,
+      5
+    ]
+  }
+}
