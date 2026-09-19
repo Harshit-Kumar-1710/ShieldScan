@@ -16,6 +16,11 @@
   <i>Combines 3,000 Character TF-IDF N-Grams + 18 Security Indicators with OWASP Defense Mapping & Offline AI Advisory</i>
 </p>
 
+<p align="center">
+  🌐 <b>Official Live Website:</b> <a href="https://shield-scan-five.vercel.app" target="_blank"><b>https://shield-scan-five.vercel.app</b></a><br/>
+  ⚡ <b>Backend Inference API:</b> <a href="https://shieldscan-api-gtvx.onrender.com" target="_blank"><b>https://shieldscan-api-gtvx.onrender.com</b></a>
+</p>
+
 ---
 
 </div>
