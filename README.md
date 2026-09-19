@@ -2,9 +2,9 @@
 
 # 🛡️ ShieldScan — Explainable ML XSS Detection System
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-shield--scan--five.vercel.app-10b981?style=for-the-badge&logo=vercel&logoColor=white)](https://shield-scan-five.vercel.app)
-[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.109%2B-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
+[![Live Web Application](https://img.shields.io/badge/Live%20App-shield--scan--five.vercel.app-10b981?style=for-the-badge&logo=vercel&logoColor=white)](https://shield-scan-five.vercel.app)
+[![Live FastAPI Backend](https://img.shields.io/badge/Live%20API-shieldscan--api--gtvx.onrender.com-46E3B7?style=for-the-badge&logo=fastapi&logoColor=black)](https://shieldscan-api-gtvx.onrender.com/docs)
+[![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![React](https://img.shields.io/badge/React-18.2-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org)
 [![Vite](https://img.shields.io/badge/Vite-5.0-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev)
 [![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.4-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
@@ -12,8 +12,8 @@
 [![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
 
 <p align="center">
-  <b>Sub-Millisecond Machine Learning XSS Screening Engine & Explainable Security Intelligence</b><br/>
-  <i>Combines 3,000 Character TF-IDF N-Grams + 18 Security Indicators with OWASP Defense Mapping & Optional Offline AI Advisory</i>
+  <b>Sub-Millisecond Machine Learning Screening Engine & Explainable AppSec Security Intelligence</b><br/>
+  <i>Combines 3,000 Character TF-IDF N-Grams + 18 Security Indicators with OWASP Defense Mapping & Offline AI Advisory</i>
 </p>
 
 ---
@@ -30,14 +30,22 @@ The system delivers **sub-millisecond inference (~0.005 ms/payload)**, a **99.80
 
 ---
 
-## 🌟 Key System Architecture & Features
+## 🔗 Live Deployments
+
+* 🌐 **Live Web Interface (Vercel):** [https://shield-scan-five.vercel.app](https://shield-scan-five.vercel.app)
+* ⚡ **Live API Service (Render):** [https://shieldscan-api-gtvx.onrender.com](https://shieldscan-api-gtvx.onrender.com)
+* 📚 **Interactive OpenAPI (Swagger) Docs:** [https://shieldscan-api-gtvx.onrender.com/docs](https://shieldscan-api-gtvx.onrender.com/docs)
+
+---
+
+## 🌟 System Architecture & Workflow
 
 ```
-               ┌─────────────────────────────────────────────────────────────┐
-               │                ShieldScan Web Interface                     │
-               │   (Scanner · Dashboard · Flashcards · History · Docs)      │
-               └──────────────────────────────┬──────────────────────────────┘
-                                              │ HTTP JSON API
+ ┌──────────────────────────────────────────────────────────────────────────────────────────┐
+ │                                 ShieldScan Web Interface                                 │
+ │              (Scanner · Dashboard · Flashcards Hub · History · Docs)                    │
+ └────────────────────────────────────────────┬─────────────────────────────────────────────┘
+                                              │ HTTP REST JSON API
                                               ▼
  ┌──────────────────────────────────────────────────────────────────────────────────────────┐
  │                               FastAPI Security Service                                   │
@@ -56,11 +64,11 @@ The system delivers **sub-millisecond inference (~0.005 ms/payload)**, a **99.80
  │ │ Safe Multi-Layer Decoder  │  │   OWASP Defense Map      │ ◀── Calibrated Severity  │
  │ └───────────────────────────┘  └──────────────────────────┘      & Attack Category       │
  └────────────────────────────────────────────┬─────────────────────────────────────────────┘
-                                              │ Optional Consent Gated
+                                              │ Optional Consent-Gated
                                               ▼
                                ┌─────────────────────────────┐
-                               │  Server-Side AI Review      │
-                               │  (Live GPT-4o / Offline Demo)│
+                               │  Server-Side AI Advisory    │
+                               │  (Live GPT-4o / Demo Mode)  │
                                └─────────────────────────────┘
 ```
 
@@ -90,7 +98,7 @@ The system delivers **sub-millisecond inference (~0.005 ms/payload)**, a **99.80
 
 ---
 
-## 📊 Benchmark & Model Comparison
+## 📊 Model Benchmark & Selection Rationale
 
 In security screening, the **False-Negative Rate (FNR / missed attacks)** is the critical metric. A missed XSS payload leads to DOM compromise, session hijacking, or data exfiltration.
 
@@ -183,25 +191,6 @@ docker-compose up --build -d
 
 ---
 
-## 🌐 Production Deployment Guide
-
-### Option 1: Frontend on Vercel + Backend on Render (Recommended)
-
-1. **Deploy API to Render:**
-   * Create a **New Web Service** on Render connected to your GitHub repository.
-   * Root directory: `backend`
-   * Environment: `Docker` (or Python 3.12 using `pip install -r requirements.txt && uvicorn main:app --host 0.0.0.0 --port $PORT`)
-   * Health Check Path: `/health`
-   * Environment Variables: `ALLOWED_ORIGINS=*` (or your Vercel URL) and optional `OPENAI_API_KEY`.
-
-2. **Deploy Frontend to Vercel:**
-   * Import the repository in Vercel.
-   * Root Directory: `frontend`
-   * Environment Variable: `VITE_API_URL=https://your-shieldscan-api.onrender.com`
-   * Vercel uses `vercel.json` to handle SPA route rewrites.
-
----
-
 ## 📡 API Reference Endpoint Summary
 
 | Endpoint | Method | Description | Example Input |
@@ -217,10 +206,27 @@ docker-compose up --build -d
 
 ---
 
+## 🎯 Interview Q&A Defense Guide
+
+**Q1: Why use Machine Learning for XSS detection instead of traditional Regex or WAF rules?**
+> *"Pure regex rules suffer from regular expression denial of service (ReDoS), high maintenance overhead, and brittle evasion via character encoding and case mutations. By training a Calibrated Linear SVM on 2–5 character n-grams and 18 security features, ShieldScan learns contextual character distributions and structural markers simultaneously, maintaining 99.80% recall with ~0.005 ms inference latency."*
+
+**Q2: Why did you choose Calibrated Linear SVM over Random Forest?**
+> *"Random Forest achieved 99.77% F1, but in security screening, false negatives are critical. Calibrated Linear SVM achieved a 0.20% false-negative rate (a 39% reduction compared to Random Forest's 0.33%), while running over 10× faster. Probability calibration allows us to assign reliable confidence scores and severity tiers."*
+
+**Q3: How is privacy preserved when using AI review?**
+> *"ShieldScan’s primary ML detection engine is 100% local. The AI review is strictly optional, gated behind an explicit consent checkbox, and executed server-side so API keys are never exposed in the browser. Furthermore, an offline Demo Mode allows full verification without sending any payload data across the network."*
+
+**Q4: Can this model replace standard output encoding and sanitization?**
+> *"No. ML is a fast screening and triage layer (defense-in-depth). Complete protection requires contextual output encoding, strict DOMPurify sanitization, and Content Security Policy (CSP) at the presentation layer. ShieldScan guides developers directly to those controls via its OWASP Defense Map."*
+
+---
+
 ## 📄 License & Author
 
 Developed by **Harshit Kumar** as an open-source AppSec & Machine Learning project.
 
 * **GitHub:** [@Harshit-Kumar-1710](https://github.com/Harshit-Kumar-1710)
 * **Live Web App:** [https://shield-scan-five.vercel.app](https://shield-scan-five.vercel.app)
+* **Live Backend API:** [https://shieldscan-api-gtvx.onrender.com](https://shieldscan-api-gtvx.onrender.com)
 * **License:** [MIT License](LICENSE)
