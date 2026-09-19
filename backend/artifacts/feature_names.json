@@ -1,0 +1,22 @@
+{
+  "security_features": [
+    "has_script_tag",
+    "has_javascript_protocol",
+    "has_event_handler",
+    "has_alert",
+    "has_eval",
+    "has_document_access",
+    "has_window_access",
+    "has_remote_src",
+    "has_url_encoding",
+    "has_html_entity",
+    "has_unicode_escape",
+    "has_base64",
+    "has_fromcharcode",
+    "has_iframe",
+    "has_img_src",
+    "has_data_uri",
+    "has_vbscript",
+    "tag_density_ratio"
+  ]
+}

