@@ -4,7 +4,7 @@ const BASE_URL = (import.meta.env.VITE_API_URL || "http://localhost:8000").repla
 
 const api = axios.create({
   baseURL: BASE_URL,
-  timeout: 15000,
+  timeout: 45000,
   headers: {
     "Content-Type": "application/json",
   },
@@ -16,18 +16,25 @@ api.interceptors.request.use((config) => {
   return config;
 });
 
-// Response interceptor — attach latency to response
+// Response interceptor — attach latency to response & humanize errors
 api.interceptors.response.use(
   (response) => {
     response.latencyMs = Date.now() - response.config.metadata.startTime;
     return response;
   },
   (error) => {
-    const message =
+    let message =
       error.response?.data?.detail ||
       error.response?.data?.message ||
       error.message ||
       "Unknown error occurred";
+
+    if (error.code === "ECONNABORTED" || message.includes("timeout")) {
+      message = "The server takes longer than expected to respond (cold start). Please retry in a few seconds.";
+    } else if (error.message === "Network Error") {
+      message = "Unable to connect to ShieldScan API backend. Ensure the server is online.";
+    }
+
     return Promise.reject(new Error(message));
   }
 );
